@@ -1,0 +1,46 @@
+import React from 'react';
+import CopyListPage, { type CopyItem } from '../components/CopyListPage';
+
+const previewItems: CopyItem[] = [
+  {
+    id: 'todayForecast',
+    label: 'Today Forecast',
+    text: 'https://www.accuweather.com/en/us/new-york/10021/weather-forecast/349727',
+  },
+  {
+    id: 'radarPage',
+    label: 'Radar Page',
+    text: 'https://www.accuweather.com/en/us/new-york/10021/weather-radar/349727',
+  },
+  {
+    id: 'appNewYorkPage',
+    label: 'App Preview (NY)',
+    text: 'https://www.accuweather.com/app/today?location-key=recent',
+  },
+  {
+    id: 'webApp',
+    label: 'Web App',
+    text: 'https://www.accuweather.com/app',
+  },
+  {
+    id: 'webAppToday',
+    label: 'App Preview Today',
+    text: 'https://www.accuweather.com/app/today',
+  },
+  {
+    id: 'webAppOne',
+    label: 'Web App (one)',
+    text: 'https://one.accuweather.com/app',
+  },
+  {
+    id: 'webAppOneToday',
+    label: 'Web App (one), Today',
+    text: 'https://one.accuweather.com/app/today',
+  },
+];
+
+const Preview: React.FC = () => {
+  return <CopyListPage items={previewItems} />;
+};
+
+export default Preview;
