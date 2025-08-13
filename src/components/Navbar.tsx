@@ -15,6 +15,8 @@ export default function Navbar() {
     { path: "/team", label: "Team" },
     { path: "/post", label: "Post" },
     { path: "/daily", label: "Daily" },
+    { path: "/sop", label: "SOP" },
+
   ];
 
   return (

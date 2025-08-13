@@ -9,11 +9,13 @@ import TabsPage from './pages/TabsPage';
 import About from './pages/About';
 import FolderPage from './pages/FolderPage';
 import Paths from './pages/Paths';
-import Daily from './pages/Daily';
+
 import Post from './pages/Post';
 import QA from './pages/QA';
 import Team from './pages/Teams';
 import Codes from './pages/Codes';
+import Daily from './pages/Daily';
+import Sop from './pages/Sop';
 
 export default function AppRoutes() {
   return (
@@ -33,6 +35,7 @@ export default function AppRoutes() {
       <Route path="/team" element={<Team />} />
       <Route path="/post" element={<Post />} />
       <Route path="/Daily" element={<Daily />} />  
+      <Route path="/sop" element={<Sop />} />  
       <Route path="*" element={<h1>404 Not Found</h1>} />      
     </Routes>
   );
