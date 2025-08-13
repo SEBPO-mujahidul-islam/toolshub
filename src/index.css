@@ -54,7 +54,7 @@
 
 .mainContent{
   margin-bottom: 250px;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
 }
 
 a {
