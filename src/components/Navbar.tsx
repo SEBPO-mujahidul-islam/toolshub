@@ -19,7 +19,7 @@ export default function Navbar() {
 
   return (
     <nav className="navbar navbar-expand-xxl navbar-dark bg-success" style={{ width: '100%' }}>
-      <a className="navbar-brand mx-2" href="/">MyTools</a>
+      <a className="navbar-brand mx-2" href="/">ToolsHub</a>
       <div className="container-fluid">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           {routes.map(route => (
