@@ -29,13 +29,7 @@ import CopyListPage, { type CopyItem } from '../components/CopyListPage';
 // ];
 
 const teamItems: CopyItem[] = [
-  { id: 'Kamal', label: '#', text: 'Kamal Hossain' },
-  { id: 'Shahedur', label: '#', text: 'Shahedur Rahman' },
-  { id: 'Tajul', label: '#', text: 'Md. Tajul Islam' },
-  { id: 'Mujahidul', label: '#', text: 'Md. Mujahidul Islam' },
-  { id: 'Imran', label: '#', text: 'Imran Ahmed' },
-  { id: 'Emrul', label: '#', text: 'Emrul Kaesh' },
-  { id: 'Ashiqur', label: '#', text: 'Ashiqur Rahman' },
+  { id: 'test', label: '#', text: 'comming soon...' },
 ];
 
 const Team: React.FC = () => {
