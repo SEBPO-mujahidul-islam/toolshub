@@ -16,6 +16,7 @@ import Team from './pages/Teams';
 import Codes from './pages/Codes';
 import Daily from './pages/Daily';
 import Sop from './pages/Sop';
+import Checklist from './pages/Checklist';
 
 export default function AppRoutes() {
   return (
@@ -26,15 +27,16 @@ export default function AppRoutes() {
       <Route path="/creatives" element={<Creatives />} />
       <Route path="/ImgNames" element={<ImgNames />} />
       <Route path="/ss-sr" element={<SSandSR />} />
-      <Route path="/Paths" element={<Paths />} />
+      <Route path="/paths" element={<Paths />} />
       <Route path="/images" element={<Images />} />
-      <Route path="/TabsPage" element={<TabsPage />} />
-      <Route path="/TabsPage" element={<About />} />
-      <Route path="/TabsPage" element={<FolderPage />} />
+      <Route path="/tabsPage" element={<TabsPage />} />
+      <Route path="/tabsPage" element={<About />} />
+      <Route path="/tabsPage" element={<FolderPage />} />
       <Route path="/qa" element={<QA />} />
       <Route path="/team" element={<Team />} />
       <Route path="/post" element={<Post />} />
-      <Route path="/Daily" element={<Daily />} />  
+      <Route path="/daily" element={<Daily />} />  
+      <Route path="/checklist" element={<Checklist />} />  
       <Route path="/sop" element={<Sop />} />  
       <Route path="*" element={<h1>404 Not Found</h1>} />      
     </Routes>

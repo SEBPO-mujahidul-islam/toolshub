@@ -10,11 +10,12 @@ export default function Navbar() {
     { path: "/ss-sr", label: "SS & SR" },
     { path: "/Paths", label: "Paths" },
     { path: "/tabs", label: "Tabs" },
-    { path: "/folders", label: "Folders" },
-    { path: "/qa", label: "QA" },
+    { path: "/folders", label: "Folders" },    
     { path: "/team", label: "Team" },
     { path: "/post", label: "Post" },
     { path: "/daily", label: "Daily" },
+    { path: "/qa", label: "QA" },
+    { path: "/checklist", label: "Checklist" },
     { path: "/sop", label: "SOP" },
 
   ];
