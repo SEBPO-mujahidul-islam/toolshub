@@ -3,7 +3,7 @@ import CopyListPage, { type CopyItem } from '../components/CopyListPage';
 
 const codeItems: CopyItem[] = [
   {
-    id: 'addHide',
+    id: 'addHideOOP',
     label: 'Ad Hide',
     text: (
       <pre>
@@ -15,13 +15,24 @@ const codeItems: CopyItem[] = [
     ),
   },
   {
-    id: 'addHide',
-    label: 'App (One) Ad Hide',
+    id: 'addHideAppOne',
+    label: 'App (One) Ad Hide No Tag',
     text: (
       <pre>
         {`<style>
     #today-top,#today-middle,#today-bottom,#oop,#interstitial{display:none !important}
 </style>`}
+      </pre>
+    ),
+  },
+  {
+    id: 'addHideAppOneNoTag',
+    label: 'App (One) Ad Hide',
+    text: (
+      <pre>
+        {`
+    #today-top,#today-middle,#today-bottom,#oop,#interstitial{display:none !important}
+    `}
       </pre>
     ),
   },
