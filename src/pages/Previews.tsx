@@ -13,8 +13,8 @@ const previewItems: CopyItem[] = [
     text: 'https://www.accuweather.com/en/us/new-york/10021/weather-radar/349727',
   },
   {
-    id: 'radarPage',
-    label: 'Today Page (Chicago)',
+    id: 'radarChicago',
+    label: 'Today Forecast (Chicago)',
     text: 'https://www.accuweather.com/en/us/chicago/60608/weather-forecast/348308?city=chicago',
   },
   {
