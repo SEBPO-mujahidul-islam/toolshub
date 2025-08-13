@@ -1,3 +1,4 @@
+import React from 'react';
 import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -10,7 +11,7 @@ export default function Navbar() {
     { path: "/ss-sr", label: "SS & SR" },
     { path: "/Paths", label: "Paths" },
     { path: "/tabs", label: "Tabs" },
-    { path: "/folders", label: "Folders" },  
+    { path: "/folders", label: "Folders" },
     { path: "/qa", label: "QA" },
     { path: "/team", label: "Team" },
     { path: "/post", label: "Post" },
@@ -18,7 +19,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="navbar navbar-expand-xxl navbar-dark bg-success" style={{ width: '100%' }}>
+    <nav className="navbar navbar-expand-xxl navbar-dark bg-success sticky-top" style={{ width: '100%' }}>
       <a className="navbar-brand mx-2" href="/">ToolsHub</a>
       <div className="container-fluid">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">

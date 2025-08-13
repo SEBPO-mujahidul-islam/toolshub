@@ -52,6 +52,11 @@
 }
 
 
+.mainContent{
+  margin-bottom: 250px;
+  overflow-x: scroll;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
